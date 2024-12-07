@@ -26,7 +26,7 @@ This document outlines the cloud services and configurations required for the AI
 
 | **Feature**                        | **Details**                      |
 |------------------------------------|----------------------------------|
-| 💲 **Monthly Cost**                | **\$5.36**                        |
+| 💲 **Monthly Cost**                | **\$5.75**                        |
 | 📍 **Location Type**               | Region                           |
 | 🌍 **Location**                    | asia-southeast2 (Jakarta)        |
 | 🗄️ **Storage Class**               | Standard Storage                 |
@@ -41,18 +41,40 @@ This document outlines the cloud services and configurations required for the AI
 
 | **Feature**                        | **Details**                      |
 |------------------------------------|----------------------------------|
-| 💲 **Monthly Cost**                | **\$41.43**                       |
+| 💲 **Monthly Cost**                | **\$0.00**                       |
 | 🌐 **Environment**                 | Standard                         |
 | 🌍 **Region**                      | asia-southeast2 (Jakarta)        |
-| 🛠️ **Applications**                | ExpressJS, PhpMyAdmin            |
-| 🔢 **Number of Instances**         | 2                                |
+| 🛠️ **Applications**                | ExpressJS           |
+| 🔢 **Number of Instances**         | 1                                |
 | 📈 **Traffic Dependency**          | Normal                             |
+
+---
+## ☁️ Cloud Run
+
+| **Feature**                        | **Details**                      |
+|------------------------------------|----------------------------------|
+| 💲 **Monthly Cost**                | **\$4.53**                       |
+| 🌍 **Region**                      | asia-southeast2 (Jakarta)        |
+| 🛠️ **Applications**                | Flask                            |
+| 🔢 **Number of Instances**         | 1                                |
+
+---
+## 🖥️ Compute Engine
+
+| **Feature**                        | **Details**                      |
+|------------------------------------|----------------------------------|
+| 💲 **Monthly Cost**                | **\$300.65**                      |
+| 🌍 **Region**                      | asia-east1 (Taiwan)              |
+| 🖥️ **Machine Type**                | n1-standar-1                     |
+| 🔢 **Number of Instances**         | 1                                |
+|🎮 **GPU Type**                     | NVIDIA T4                        |
+|🎮 **Number of GPUs**               | 1                                |
 
 ---
 
 ## 💰 Total Estimated Cost
 
-- **Total Monthly Cost:** **\$68.92**
+- **Total Monthly Cost:** **\$333.06**
 
 This setup provides a comprehensive cloud infrastructure for the AIRA Project Capstone, ensuring scalability, reliability, and regional optimization.
 
@@ -60,7 +82,7 @@ This setup provides a comprehensive cloud infrastructure for the AIRA Project Ca
 
 ## 📚 Additional Resources
 
-For more detailed cost estimations and configurations, visit the [Google Cloud Pricing Calculator](https://cloud.google.com/products/calculator/?utm_source=google&utm_medium=cpc&utm_campaign=japac-ID-all-en-dr-BKWS-all-core-trial-PHR-dr-1605216&utm_content=text-ad-none-none-DEV_c-CRE_664893357345-ADGP_Hybrid%20%7C%20BKWS%20-%20BRO%20%7C%20Txt%20-GCP-General-google%20cloud-main-KWID_43700077402219975-kwd-297731874671&userloc_9119824-network_g&utm_term=KW_cloudgoogle&gad_source=1&gclid=Cj0KCQiAouG5BhDBARIsAOc08RTcnzJ9RxfRKGdmr4i9hEkvzxslMMgd591m1nDgihfcCYLg5HGhnSEaAgVMEALw_wcB&gclsrc=aw.ds&hl=en&dl=CjhDaVJpT1RVek1tTmhOeTB6WVRnNUxUUXdOakV0WW1WbE5pMW1OMk00T0RVd1lUUTBPVFVRQVE9PRAMGiQ3ODQzMjRGRi04NkZBLTRFQ0MtQTlGMS1ENUNDRjZDOTBERkI).
+For more detailed cost estimations and configurations, visit the [Google Cloud Pricing Calculator](https://cloud.google.com/products/calculator?hl=id&dl=CjhDaVF5TUdVME1URTVPUzAxTW1SbExUUm1NR1V0T0RKbE9TMWhZekprWVdabE9UaGxOMllRQVE9PRAIGiRBMTc3MzQ5Ny0xQjMyLTRCMjItQjY2Qi1DM0IyNkYxMUJGQUE).
 
 ---
 
